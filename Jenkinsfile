@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    variables {
+    environment {
         some_variable = "value"
     }
     stages {
