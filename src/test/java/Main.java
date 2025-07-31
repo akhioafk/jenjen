@@ -14,6 +14,6 @@ public class Main {
 
     @Test
     public void testThree() {
-        Assert.assertFalse(2 + 2 == 5, "2 + 2 should equal 4");
+        Assert.assertTrue(2 + 2 == 5, "2 + 2 should equal 4");
     }
 }
