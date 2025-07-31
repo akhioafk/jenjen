@@ -1,7 +1,7 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Main {
+public class MainTest {
     @Test
     public void testOne() {
         Assert.assertEquals("Hello", "Hello", "Strings should be equal");
