@@ -12,7 +12,12 @@ pipeline {
         
         stage("Test") {
             steps {
+                echo "${some_variable}"
                 bat "mvn test"
+            }
+        }
+        stage("Print") {
+            steps {
                 echo "${some_variable}"
             }
         }
